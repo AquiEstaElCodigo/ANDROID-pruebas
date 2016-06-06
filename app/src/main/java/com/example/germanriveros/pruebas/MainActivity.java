@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-//probando git
+//probando git 2.0
 
         btn_abc = (Button) findViewById(R.id.btn_abc);
         btn_abc.setOnClickListener(new View.OnClickListener()
