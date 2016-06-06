@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.germanriveros.pruebas.Abc_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Buscar por Letra"
+        android:id="@+id/textView3"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:id="@+id/btn_A"
+                android:onClick="mostrarPalabras"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:id="@+id/btn_B"
+                android:onClick="mostrarPalabras"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="C"
+                android:id="@+id/btn_C"
+                android:onClick="mostrarPalabras"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                 />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:id="@+id/btn_D"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E"
+                android:id="@+id/btn_E"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:id="@+id/btn_F"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:id="@+id/btn_G"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H"
+                android:id="@+id/btn_H"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:id="@+id/btn_I"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="J"
+                android:id="@+id/btn_J"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K"
+                android:id="@+id/btn_K"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:enabled="false"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:id="@+id/btn_L"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LL"
+                android:id="@+id/btn_LL"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:enabled="false"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:id="@+id/btn_M"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N"
+                android:id="@+id/btn_N"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ñ"
+                android:id="@+id/btn_enye"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:clickable="false"
+                android:enabled="false"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O"
+                android:id="@+id/btn_O"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P"
+                android:id="@+id/btn_P"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q"
+                android:id="@+id/btn_Q"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R"
+                android:id="@+id/btn_R"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"
+                android:id="@+id/btn_S"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T"
+                android:id="@+id/btn_T"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="U"
+                android:id="@+id/btn_U"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:id="@+id/btn_V"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W"
+                android:id="@+id/btn_W"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:enabled="false"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:id="@+id/btn_X"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:enabled="false"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y"
+                android:id="@+id/btn_Y"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Z"
+                android:id="@+id/btn_Z"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="mostrarPalabras"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
